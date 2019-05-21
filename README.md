@@ -5,8 +5,10 @@ A lightweight React component for Ant Menu to support responsive behaviour.
 ## Motivation
 Having an option for Ant's Menu component to hide under a customizable element when viewing on mobile device.
 
-## How to use
+## Interactive Demo
+[https://id-kemo.github.io/responsive-ant-menu/](https://id-kemo.github.io/responsive-ant-menu/)
 
+## How to use
 1. `npm i responsive-ant-menu`
 2. Optional: Configure your project to use [Modularized Ant](https://ant.design/docs/react/introduce#Use-modularized-antd) OR import the styles for Menu & Popover manually.
 
