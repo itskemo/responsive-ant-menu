@@ -10,7 +10,7 @@ Having an option for Ant's Menu component to hide under a customizable element w
 
 ## How to use
 1. `npm i responsive-ant-menu`
-2. Optional: Configure your project to use [Modularized Ant](https://ant.design/docs/react/introduce#Use-modularized-antd) OR import the styles for Menu & Popover manually.
+2. Optional: Configure your project to use [Modularized Ant](https://ant.design/docs/react/introduce#Use-modularized-antd) (otherwise you have to import the styles manually)
 
 ## Sample Usage
 ```js
@@ -59,3 +59,4 @@ theme | `'light', 'dark'` | 'light' | Allows to set a theme of Ant's Menu compon
 placement | `string` | `'bottom'` | Allow to use various positions for Popover component, for more info, see: [Ant Design: Popover](https://ant.design/components/popover/#components-popover-demo-placement)
 closeOnClick | `boolean` | `true` | Close the Mobile menu once the link is clicked
 menuClassName | `string` | - | Add a custom CSS class to the Ant's Menu component
+popoverTrigger | `string` | 'click' | Allows to define a trigger type to show the Mobile Menu. Accepted values are 'click', 'hover', 'focus' 

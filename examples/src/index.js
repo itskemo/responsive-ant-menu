@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { render } from 'react-dom';
-import ResponsiveAntMenu from '../../dist/ResponsiveAntMenu';
-// import ResponsiveAntMenu from '../../src/ResponsiveAntMenu';
+// import ResponsiveAntMenu from '../../dist/ResponsiveAntMenu';
+import ResponsiveAntMenu from '../../src/ResponsiveAntMenu';
 
 import { Menu, Switch, InputNumber } from 'antd';
 // include Menu & Popover styles if not not using already
