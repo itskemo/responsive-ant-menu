@@ -3,7 +3,7 @@
 A lightweight React component for Ant Menu to support responsive behaviour.
 
 ## Motivation
-Having an option for Ant's Menu component to hide under a customizable element when viewing on mobile device.
+Having an option for Ant's Menu component to hide under a customizable element when viewing on a mobile device.
 
 ## Interactive Demo
 [https://id-kemo.github.io/responsive-ant-menu/](https://id-kemo.github.io/responsive-ant-menu/)
@@ -23,9 +23,9 @@ import { Menu } from 'antd';
 
 const Nav = () => (
     <ResponsiveAntMenu
-    activeLinkKey={location.pathname}
-    mobileMenuContent={isMenuShown => isMenuShown ? <button>Close</button> : <button>Open</button>}
-    menuClassName={'responsive-ant-menu'}
+        activeLinkKey={location.pathname}
+        mobileMenuContent={isMenuShown => isMenuShown ? <button>Close</button> : <button>Open</button>}
+        menuClassName={'responsive-ant-menu'}
     >
         {(onLinkClick) =>
             <Menu>

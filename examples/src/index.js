@@ -36,7 +36,7 @@ const App = () => {
             <h2>Options</h2>
             <ul>
                 <li><b>Desktop theme:</b>&nbsp;<i>light</i> <Switch onChange={handleDesktopThemeChange}/> <i>dark</i></li>
-                <li><b>Mobile theme:</b>&nbsp;<i>light</i> <Switch onChange={handleMobileThemeChange}/> <i>dark</i></li>
+                <li><b>Mobile theme:</b>&nbsp;<i>light</i> <Switch defaultChecked onChange={handleMobileThemeChange}/> <i>dark</i></li>
                 <li><b>Close Mobile Menu on Link Click:</b>&nbsp;<i>off</i> <Switch defaultChecked onChange={handleCloseOnClick}/> <i>on</i></li>
                 <li><b>Mobile Breakpoint (px):</b>&nbsp;<InputNumber min={250} max={1024} defaultValue={575} onChange={handleMobileBreakpointChange} /></li>
                 <li><b>View Mode:</b>&nbsp;<i>horizontal</i> <Switch onChange={handleViewMode}/> <i>vertical</i></li>
