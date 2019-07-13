@@ -1,6 +1,6 @@
 {
   "name": "responsive-ant-menu",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A lightweight React component for Ant Menu to support responsive behaviour.",
   "main": "dist/ResponsiveAntMenu.js",
   "scripts": {
