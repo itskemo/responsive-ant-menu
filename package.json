@@ -1,6 +1,6 @@
 {
   "name": "responsive-ant-menu",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A lightweight React component for Ant Menu to support responsive behaviour.",
   "main": "dist/ResponsiveAntMenu.js",
   "scripts": {
@@ -23,26 +23,26 @@
     "url": "https://github.com/id-kemo/responsive-ant-menu"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/preset-react": "^7.0.0",
-    "antd": "^3.18.2",
-    "babel-loader": "^8.0.5",
-    "babel-plugin-import": "^1.11.0",
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "antd": "^3.26.6",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.13.0",
     "css-loader": "^2.1.1",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "lodash.throttle": "^4.1.1",
     "mini-css-extract-plugin": "^0.6.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1",
-    "webpack-dev-server": "^3.3.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   },
   "peerDependencies": {
     "antd": "^3.16.6",
