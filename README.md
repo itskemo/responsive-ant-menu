@@ -6,7 +6,7 @@ A lightweight React component for Ant Menu to support responsive behaviour.
 Having an option for Ant's Menu component to hide under a customizable element when viewing on a mobile device.
 
 ## Interactive Demo
-[https://id-kemo.github.io/responsive-ant-menu/](https://id-kemo.github.io/responsive-ant-menu/)
+[https://itskemo.github.io/responsive-ant-menu/](https://itskemo.github.io/responsive-ant-menu/)
 
 ## How to use
 1. `npm i responsive-ant-menu`
@@ -42,7 +42,7 @@ const Nav = () => (
         }
     </ResponsiveAntMenu>
 );
-        
+
 export default Nav;
 ```
 
@@ -59,4 +59,4 @@ theme | `'light', 'dark'` | 'light' | Allows to set a theme of Ant's Menu compon
 placement | `string` | `'bottom'` | Allow to use various positions for Popover component, for more info, see: [Ant Design: Popover](https://ant.design/components/popover/#components-popover-demo-placement)
 closeOnClick | `boolean` | `true` | Close the Mobile menu once the link is clicked
 menuClassName | `string` | - | Add a custom CSS class to the Ant's Menu component
-popoverTrigger | `string` | 'click' | Allows to define a trigger type to show the Mobile Menu. Accepted values are 'click', 'hover', 'focus' 
+popoverTrigger | `string` | 'click' | Allows to define a trigger type to show the Mobile Menu. Accepted values are 'click', 'hover', 'focus'
