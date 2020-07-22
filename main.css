@@ -3016,6 +3016,12 @@ html {
 .ant-input-number::-webkit-input-placeholder {
   color: #bfbfbf;
 }
+.ant-input-number:-moz-placeholder-shown {
+  text-overflow: ellipsis;
+}
+.ant-input-number:-ms-input-placeholder {
+  text-overflow: ellipsis;
+}
 .ant-input-number:placeholder-shown {
   text-overflow: ellipsis;
 }
@@ -3180,6 +3186,12 @@ textarea.ant-input-number {
 }
 .ant-input-number-input::-webkit-input-placeholder {
   color: #bfbfbf;
+}
+.ant-input-number-input:-moz-placeholder-shown {
+  text-overflow: ellipsis;
+}
+.ant-input-number-input:-ms-input-placeholder {
+  text-overflow: ellipsis;
 }
 .ant-input-number-input:placeholder-shown {
   text-overflow: ellipsis;
