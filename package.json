@@ -1,6 +1,6 @@
 {
   "name": "responsive-ant-menu",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A lightweight React component for Ant Menu to support responsive behaviour.",
   "main": "dist/ResponsiveAntMenu.js",
   "scripts": {
@@ -23,10 +23,10 @@
     "url": "https://github.com/id-kemo/responsive-ant-menu"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "antd": "^3.26.18",
     "babel-loader": "^8.1.0",
@@ -40,7 +40,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
