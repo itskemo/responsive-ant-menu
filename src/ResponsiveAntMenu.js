@@ -51,7 +51,10 @@ ResponsiveAntMenu.propTypes = {
     throttleViewportChange: number,
     activeLinkKey: string,
     placement: string,
-    theme: func,
+    theme:  oneOfType([
+        func,
+        string
+    ]),
     mode: oneOfType([
         func,
         string
