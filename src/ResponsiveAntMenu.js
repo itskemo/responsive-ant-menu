@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { number, string, func, oneOfType, bool, oneOf } from 'prop-types';
+import { number, string, func, oneOfType, bool, oneOf, object } from 'prop-types';
 import { Popover } from 'antd';
 import throttle from 'lodash.throttle';
 
 const ResponsiveAntMenu = (props) => {
     const {
-        children: MenuMarkup, activeLinkKey, menuClassName: className,
+        children: MenuMarkup, activeLinkKey, menuClassName: className, popoverProps,
         theme, mode, mobileMenuContent, placement, popoverTrigger,
         throttleViewportChange, mobileBreakPoint, closeOnClick
     } = props;
@@ -39,6 +39,7 @@ const ResponsiveAntMenu = (props) => {
             placement={placement}
             visible={isMenuShown}
             onVisibleChange={setIsMenuShown}
+            {...popoverProps}
         >
             {mobileMenuContent(isMenuShown)}
         </Popover> : menuToRender;
@@ -58,6 +59,7 @@ ResponsiveAntMenu.propTypes = {
     ]),
     mobileMenuContent: func.isRequired,
     menuClassName: string,
+    popoverProps: object,
     popoverTrigger: oneOf(['click', 'hover', 'focus'])
 };
 
